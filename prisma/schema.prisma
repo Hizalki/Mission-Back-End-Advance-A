@@ -12,7 +12,7 @@ model users {
   fullname  String    @db.VarChar(1225)
   username  String    @db.VarChar(225)
   password  String    @db.VarChar(225)
-  email     String    @db.VarChar(225)
+  email     String    @db.VarChar(225) 
   createdAt DateTime? @db.Timestamp(0)
   updatedAt DateTime? @db.Timestamp(0)
 }
